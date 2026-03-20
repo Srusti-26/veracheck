@@ -1,5 +1,9 @@
 # VeraCheck
 
+![VeraCheck Dashboard](public/1.jpeg)
+
+![VeraCheck Analysis Panel](public/2.jpeg)
+
 Real-time fact-checking for vernacular news across Indian languages. VeraCheck uses a 3-stage AI pipeline to classify claims as **True**, **False**, or **Misleading** — with the majority of queries resolved before ever reaching the LLM.
 
 ---
@@ -175,7 +179,6 @@ npm run preview
 > The backend requires Python 3.10+ and the dependencies listed in `requirements.txt`.
 
 ```bash
-cd backend
 python -m venv venv
 
 # Linux/macOS
